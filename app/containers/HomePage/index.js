@@ -56,7 +56,8 @@ export default function HomePage() {
           <InfoTable />
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-          Ant Design ©2018 Created by Ant UED
+          Created by
+          <a href="https://github.com/helloshantanu"> @Helloshantanu</a>
         </Footer>
       </Layout>
     </>
