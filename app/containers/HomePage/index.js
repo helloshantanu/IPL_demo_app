@@ -16,13 +16,6 @@ import img2 from '../../images/2.png';
 import img3 from '../../images/ipl.jpg';
 import img4 from '../../images/RON_3829.png';
 export default function HomePage() {
-  const contentStyle = {
-    height: '450px',
-    color: '#fff',
-    lineHeight: '160px',
-    textAlign: 'center',
-    background: '#364d79',
-  };
   const { Header, Content, Footer } = Layout;
 
   return (

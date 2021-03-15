@@ -39,8 +39,7 @@ function DebounceSelect({ fetchOptions, debounceTimeout = 800, ...props }) {
   );
 } // Usage of DebounceSelect
 
-async function fetchUserList(username) {
-  console.log('fetching user', username);
+async function fetchUserList() {
   return fetch('https://randomuser.me/api/?results=7')
     .then(response => response.json())
     .then(body =>
