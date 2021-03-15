@@ -6,10 +6,15 @@
  */
 
 import React from 'react';
-import { Carousel, Layout } from 'antd';
+import { Carousel, Layout, Image } from 'antd';
 import './style.css';
 import SearchBox from '../../components/SearchBox/Loadable';
 import InfoTable from '../../components/InfoTable/Loadable';
+
+import img1 from '../../images/4.jpg';
+import img2 from '../../images/2.png';
+import img3 from '../../images/ipl.jpg';
+import img4 from '../../images/RON_3829.png';
 export default function HomePage() {
   const contentStyle = {
     height: '450px',
@@ -35,16 +40,16 @@ export default function HomePage() {
         <Content style={{ padding: '0 50px' }}>
           <Carousel autoplay>
             <div>
-              <h3 style={contentStyle}>1</h3>
+              <Image src={img2} width={1800} height={500} />
             </div>
             <div>
-              <h3 style={contentStyle}>2</h3>
+              <Image src={img3} width={1800} height={500} />
             </div>
             <div>
-              <h3 style={contentStyle}>3</h3>
+              <Image src={img1} width={1800} height={500} />
             </div>
             <div>
-              <h3 style={contentStyle}>4</h3>
+              <Image src={img4} width={1800} height={500} />
             </div>
           </Carousel>
           <SearchBox />

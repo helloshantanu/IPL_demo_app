@@ -2,6 +2,8 @@ import React from 'react';
 import { Row, Col, Card, Image } from 'antd';
 import img from '../../images/0001.jpg';
 import TrendinNews from '../TrendingNews/Loadable';
+import Pointstable from '../PointsTable/Loadable';
+import UpcomingMatches from '../UpcomingMatches/Loadable';
 const tabListNoTitle = [
   {
     key: 'News',
@@ -19,7 +21,7 @@ const tabListNoTitle = [
 const contentListNoTitle = {
   News: <TrendinNews />,
   Schedule: <Image src={img} />,
-  UpcomingMatches: <p>project content</p>,
+  UpcomingMatches: <UpcomingMatches />,
 };
 
 export default class TabsCard extends React.Component {
@@ -53,7 +55,16 @@ export default class TabsCard extends React.Component {
               style={{ width: '100%' }}
               title="Points Table"
               tabBarExtraContent={<a href="https://www.iplt20.com/">More</a>}
-            />
+            >
+              <Pointstable />
+            </Card>
+            <Card
+              style={{ width: '100%', marginTop: '30px' }}
+              title="Points Table"
+              tabBarExtraContent={<a href="https://www.iplt20.com/">More</a>}
+            >
+              <Pointstable />
+            </Card>
           </Col>
         </Row>
       </div>
