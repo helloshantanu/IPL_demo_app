@@ -33,16 +33,16 @@ export default function HomePage() {
         <Content style={{ padding: '0 50px' }}>
           <Carousel autoplay>
             <div>
-              <Image src={img2} width={1800} height={500} />
+              <Image src={img2} width="100%" height={500} />
             </div>
             <div>
-              <Image src={img3} width={1800} height={500} />
+              <Image src={img3} width="100%" height={500} />
             </div>
             <div>
-              <Image src={img1} width={1800} height={500} />
+              <Image src={img1} width="100%" height={500} />
             </div>
             <div>
-              <Image src={img4} width={1800} height={500} />
+              <Image src={img4} width="100%" height={500} />
             </div>
           </Carousel>
           <SearchBox />
