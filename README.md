@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://ipl-demo-app.vercel.app/">
-    <img src="https://cdn.freelogovectors.net/wp-content/uploads/2020/07/Indian-Premier-League-IPL-logo-768x365.png" alt="IPL Demo App Logo" width="200" height="57">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Premier_League_Official_Logo.svg/250px-Indian_Premier_League_Official_Logo.svg.png" alt="IPL Demo App Logo" width="300" height="100">
   </a>
 
   <h3 align="center">Search & Discover any IPL Details</h3>
