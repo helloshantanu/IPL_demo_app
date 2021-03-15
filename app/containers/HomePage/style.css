@@ -1,0 +1,7 @@
+.center_dashboard {
+  width: 1400px;
+  margin: auto;
+  margin-top: -100px;
+  z-index: 9;
+  box-shadow: black 2px;
+}
