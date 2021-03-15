@@ -40,6 +40,16 @@
 | FrontEnd | <p align="center"><img src="https://github.com/anuraghazra/BugVilla/raw/master/assets/reactjs_logo.png" width="100" height="100"> <br />Reactjs</p> | <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" width="100" height="100"> <br />Javascript</p>  | <p align="center"><img src="https://github.com/anuraghazra/BugVilla/raw/master/assets/redux_logo.png" width="100" height="100"> <br />Redux</p>   | <p align="center"><img src="https://github.com/anuraghazra/BugVilla/raw/master/assets/styledcompo_logo.png" width="100" height="100"> <br />Styled Components</p> | <p align="center"><img src="https://digital.ai/sites/default/files/pictures/styles/maxwidth_300/public/pt_logos/jest.png?itok=dI0IDX4S" width="100" height="100"> <br />Jest </p>       |
 | BackEnd  | <p align="center"><img src="https://www.finsmes.com/wp-content/uploads/2020/04/vercel.png" width="100" height="100"> <br />Vercel</p> 
 
+## :dash: Load Time
+Google Chrome LightHouse in Private window : 5.1 s
+<br>
+First Contentful Paint : 1.1 s
+
+## :fire: Steps Taken to Reduce Load Time
+- Reduced Network Payload
+- Reduced Image Size
+- Can Use CSS Minifiers like PurgeCSS (Not Implemented)
+- Used Lazy Loading feature of React
 
 ## :rocket: Quick start
 
@@ -123,3 +133,6 @@ git push YOUR_REPO_URL develop
 ------
 
 Made with :heart: and javascript & lot of Coffee!!
+
+### Screenshot
+<img src="./app/images/screenshot.png"/>
